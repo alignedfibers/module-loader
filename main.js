@@ -21,13 +21,8 @@ var libraries = (function(){
     }
   }.init();
   var __internallibs__ = {
-    //Remove
-    init : function(){
-      this.builder = 'Shawn Stark';
-      delete this.init;
-      return this;
-    }
-  }.init(); //keeping the libs that I want gated seperate
+    //keeping the libs that I want gated seperate
+  } 
   var consumers = {
     //This object houses the functions to add, destroy and get references to libraries
     addLib : function(privateName,libLiteral, restrictPubOn){
